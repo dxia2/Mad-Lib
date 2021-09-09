@@ -1,4 +1,5 @@
 html{
+  /* image background */
   background: url("img/airplane-wing.jpg") no-repeat center fixed;
   background-size: cover;
 }
@@ -23,6 +24,7 @@ h1, h2{
 }
 
 li{
+  /* add spacing between list elements */
   margin-bottom: 10px;
 }
 

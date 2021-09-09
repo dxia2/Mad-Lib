@@ -3,13 +3,12 @@ document.getElementById("madLibButton").addEventListener("click", madLib)
 
 function madLib(){
     //input
-    let pluralNoun = document.getElementById("pluralNoun").value;
-    let adjective = document.getElementById("adjective").value;
-    let presentTenseVerb = document.getElementById("presentTenseVerb").value;
+    let schoolSubject = document.getElementById("schoolSubject").value;
+    let color = document.getElementById("color").value;
     let noun = document.getElementById("noun").value;
 
-    document.getElementById("pluralNounOutput").innerHTML = pluralNoun;
-    document.getElementById("adjectiveOutput").innerHTML = adjective;
-    document.getElementById("presentTenseVerbOutput").innerHTML = presentTenseVerb;
+    //select parts in html by id and fill them in
+    document.getElementById("schoolSubjectOutput").innerHTML = schoolSubject;
+    document.getElementById("colorOutput").innerHTML = color;
     document.getElementById("nounOutput").innerHTML = noun;
 }
