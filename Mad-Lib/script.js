@@ -1,7 +1,7 @@
 //listens for button click
 document.getElementById("madLibButton").addEventListener("click", madLib)
 
-function madLib(){
+function madLib() {
     //input
     let schoolSubject = document.getElementById("schoolSubject").value;
     let color = document.getElementById("color").value;

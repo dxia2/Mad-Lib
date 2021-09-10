@@ -1,34 +1,35 @@
-html{
+html {
   /* image background */
   background: url("img/airplane-wing.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
-body{
+body {
   background: rgba(255, 255, 255, 0.8);
-  width:500px;
+  width: 500px;
   padding: 50px 100px;
   margin: 25px auto;
   border-radius: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1 {
   font-size: 42px;
   font-variant: small-caps;
 }
 
-h1, h2{
+h1,
+h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: midnightblue;
 }
 
-li{
+li {
   /* add spacing between list elements */
   margin-bottom: 10px;
 }
 
-button{
+button {
   background: skyblue;
   padding: 5px 30px;
   font-size: 18px;
@@ -36,7 +37,7 @@ button{
   border-radius: 5px;
 }
 
-#result{
+#result {
   border: 1px solid orange;
   padding: 20px;
   font-size: 18px;
